@@ -25,9 +25,6 @@
                 font-size: 20pt;
             }
 
-            img {
-                width: 100%;
-            }
 
             .home {
                 margin: 0;
@@ -147,11 +144,4 @@
                 padding-top: 200px;
                 text-align: center;
                 background: #ccc;
-            }
-
-            .contact-section {
-                height: 100%;
-                padding-top: 150px;
-                text-align: center;
-                background: #eee;
             }
