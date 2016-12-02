@@ -9,9 +9,9 @@
                 position: fixed;
                 display: inline-block;
                 text-align: center;
-                background-color: black;
+                background-color: #618B25;
                 z-index: 1;
-                opacity: 0.75;
+                opacity: 0.9;
             }
 
             .navigation li {
@@ -21,6 +21,7 @@
             }
 
             .navigation li a {
+                font-family:LondrinaSolid-Regular.otf;
                 color: saddlebrown;
                 font-size: 20pt;
             }
@@ -76,19 +77,24 @@
                 font-size: 36pt;
             }
 
-            .reservation {
-                position: absolute;
-                margin-top: 1000px;
-                background-color: #FCFEF1;
-                width: 100%;
-                height: 1000px;
-                margin: -5pt;
-                padding: 0;
-            }
+
+            #reserveform{
+                text-align: left;
+                background:#1B9AAA;
+                padding: 50px;
+                border-radius:25%;
+                float:left;}
 
             .input {
                 margin: 40pt;
-            }
+                    }
+
+            .col-lg-12 p{
+                        font-size: 20pt;
+                        color:  #5B4019;
+                        }
+            
+            #contact{background: #62C0CD;}
 
             footer {
                 background-color: #B6DA83;
