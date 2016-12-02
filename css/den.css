@@ -12,13 +12,16 @@
                 background-color: #618B25;
                 z-index: 1;
                 opacity: 0.9;
-            }
+                        }
 
             .navigation li {
-                display: inline;
-                padding: 20px;
-                z-index: 1;
-            }
+                            display: inline;
+                            padding: 20px;
+                            z-index: 1;
+                            }
+        
+            .nav navbar-nav{margin-left: auto;
+                margin-right: auto;}
 
             .navigation li a {
                 font-family:LondrinaSolid-Regular.otf;
@@ -31,16 +34,16 @@
                 margin: 0;
             }
 
-            #story {
-                width: 100%;
-                height: 1100px;
+            /*#story {
+
+
                 background-image: url(Lion.JPG);
                 background-size: cover;
                 position: absolute;
                 background-repeat: no-repeat;
-            }
+            }*/
 
-            #bluesquare {
+            /**#bluesquare {
                 width: 80%;
                 height: 400px;
                 background-color: #1B9AAA;
@@ -53,18 +56,7 @@
                 text-align: center;
                 padding-top: 200px;
                 padding-bottom: 200px;
-            }
-
-            #bluesquare>h2 {
-                font-size: 75pt;
-                position: absolute;
-                text-align: center;
-            }
-
-            #bluesquare>p {
-                font-size: 20pt;
-                text-align: center;
-            }
+            }*/
 
             .menu {
                 z-index: 2;
@@ -138,6 +130,20 @@
                 padding-top: 200px;
                 text-align: center;
                 background: #fff;
+            }
+
+            .about-section {
+                height: 100%;
+                padding-top: 200px;
+                text-align: center;
+                background: #B6DA83;
+            }
+
+            .menu-section {
+                height: 100%;
+                padding-top: 200px;
+                text-align: center;
+                background: #62C0CD;
             }
 
             .top-section {
